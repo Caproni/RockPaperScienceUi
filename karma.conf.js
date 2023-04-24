@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/RockPaperScienceUi'),
+      dir: require('path').join(__dirname, './coverage/bennett-family-site-ui'),
       subdir: '.',
       reporters: [
         { type: 'html' },

@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "RockPaperScienceUi"
+  "defaultProject": "RockPaperScienceUi",
+  "cli": {
+    "analytics": false
+  }
 }

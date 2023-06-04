@@ -83,3 +83,8 @@ blockquote a:hover{
 blockquote em{
   font-style: italic;
 }
+
+i {
+  margin: 10px;
+  font-size: 16px;
+}

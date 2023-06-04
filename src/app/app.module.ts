@@ -4,23 +4,31 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { BlogComponent } from './blog/blog.component';
 import { AlertWindowComponent } from './alert/alert.component';
 import { NoPageComponent } from './no-page/no-page.component';
 import { AppRoutingModule } from './app-routing.module';
-import { CvComponent } from './cv/cv.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { PhysicsComponent } from './physics/physics.component';
+import { BiologyComponent } from './biology/biology.component';
+import { MetaComponent } from './meta/meta.component';
+import { ChemistryComponent } from './chemistry/chemistry.component';
+import { ComputingCodeComponent } from './computing-code/computing-code.component';
+import { MathematicsComponent } from './mathematics/mathematics.component';
+import { DataScienceComponent } from './data-science/data-science.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    BlogComponent,
     AlertWindowComponent,
     NoPageComponent,
-    CvComponent,
-    ProjectsComponent,
+    PhysicsComponent,
+    BiologyComponent,
+    MetaComponent,
+    ChemistryComponent,
+    ComputingCodeComponent,
+    MathematicsComponent,
+    DataScienceComponent,
   ],
   imports: [
     BrowserModule,

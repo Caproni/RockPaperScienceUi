@@ -1,9 +1,37 @@
-<nav class="navbar navbar-expand navbar-dark">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <div class="container-fluid">
-    <div class="navbar-nav navbar-left">
-      <a class="nav-brand pl-2 pr-2" routerLink="" title="Home"><img src="assets/favicon_io/favicon.ico" height="40" alt="Rock Paper Science"></a>
-      <a class="project-title nav-item nav-link pr-3 ml-2" routerLink="/photos" routerLinkActive="active" title="Content">
-      </a>
+    <a class="navbar-brand" routerLink="" routerLinkActive="active">Rock Paper Science </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" #navbarCollapse id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/meta" routerLinkActive="active" (click)="closeNavbar()">Meta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/biology" routerLinkActive="active" (click)="closeNavbar()">Biology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/chemistry" routerLinkActive="active" (click)="closeNavbar()">Chemistry</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/computing-and-code" routerLinkActive="active" (click)="closeNavbar()">Computing & Code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/data-science" routerLinkActive="active" (click)="closeNavbar()">Data Science</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/mathematics" routerLinkActive="active" (click)="closeNavbar()">Mathematics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/physics" routerLinkActive="active" (click)="closeNavbar()">Physics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://huginnmuninnresearch.com">Huginn // Muninn</a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>

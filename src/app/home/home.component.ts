@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
-  selector: 'app-hmr-home',
+  selector: 'app-rps-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   animations: [

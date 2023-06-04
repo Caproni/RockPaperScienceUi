@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-hmr-alert',
+  selector: 'app-rps-alert',
   templateUrl: './alert.component.html',
   styleUrls: ['./alert.component.css']
 })

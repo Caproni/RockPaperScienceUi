@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-hmr-no-page',
+  selector: 'app-rps-no-page',
   templateUrl: './no-page.component.html',
   styleUrls: ['./no-page.component.css']
 })

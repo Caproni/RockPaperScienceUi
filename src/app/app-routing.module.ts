@@ -10,6 +10,7 @@ import { ComputingCodeComponent } from './computing-code/computing-code.componen
 import { DataScienceComponent } from './data-science/data-science.component';
 import { MathematicsComponent } from './mathematics/mathematics.component';
 import { PhysicsComponent } from './physics/physics.component';
+import { PoetryProseComponent } from './poetry-prose/poetry-prose.component';
 import { NoPageComponent } from './no-page/no-page.component';
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'data-science', component: DataScienceComponent },
   { path: 'mathematics', component: MathematicsComponent },
   { path: 'physics', component: PhysicsComponent },
+  { path: 'poetry-prose', component: PoetryProseComponent },
   { path: '**', component: NoPageComponent },
 ];
 

@@ -15,6 +15,7 @@ import { ChemistryComponent } from './chemistry/chemistry.component';
 import { ComputingCodeComponent } from './computing-code/computing-code.component';
 import { MathematicsComponent } from './mathematics/mathematics.component';
 import { DataScienceComponent } from './data-science/data-science.component';
+import { ClimateComponent } from './climate/climate.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { DataScienceComponent } from './data-science/data-science.component';
     ComputingCodeComponent,
     MathematicsComponent,
     DataScienceComponent,
+    ClimateComponent,
   ],
   imports: [
     BrowserModule,

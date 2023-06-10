@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { MetaComponent } from './meta/meta.component';
 import { BiologyComponent } from './biology/biology.component';
 import { ChemistryComponent } from './chemistry/chemistry.component';
+import { ClimateComponent } from './climate/climate.component';
 import { ComputingCodeComponent } from './computing-code/computing-code.component';
 import { DataScienceComponent } from './data-science/data-science.component';
 import { MathematicsComponent } from './mathematics/mathematics.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'meta', component: MetaComponent },
   { path: 'biology', component: BiologyComponent },
   { path: 'chemistry', component: ChemistryComponent },
+  { path: 'climate', component: ClimateComponent },
   { path: 'computing-and-code', component: ComputingCodeComponent },
   { path: 'data-science', component: DataScienceComponent },
   { path: 'mathematics', component: MathematicsComponent },

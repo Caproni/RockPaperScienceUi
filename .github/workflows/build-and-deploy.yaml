@@ -33,16 +33,3 @@ jobs:
           push: true
           tags: ghcr.io/caproni/rockpaperscienceui:${{ github.sha }}
           file: ./Dockerfile
-
-      - name: Set up kubeconfig
-        run: |
-          echo "${{ secrets.KUBECONFIG }}" > kubeconfig
-          chmod 600 kubeconfig
-          export KUBECONFIG=$PWD/kubeconfig
-
-      - name: Apply Kubernetes Manifests
-        run: |
-          kubectl apply -f ./k8s/deployment.yaml
-          kubectl apply -f ./k8s/service.yaml
-          kubectl apply -f ./k8s/route.yaml
-          kubectl apply -f ./k8s/hpa.yaml

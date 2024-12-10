@@ -33,7 +33,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/${{ github.repo }}:${{ github.sha }}
+          tags: ghcr.io/${{ github.REPO }}:${{ github.sha }}
           file: ./Dockerfile
 
       - name: Set up kubeconfig

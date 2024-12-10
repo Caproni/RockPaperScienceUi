@@ -6,7 +6,7 @@ metadata:
 spec:
   to:
     kind: Service
-    name: rocker-paper-science-ui-service
+    name: rock-paper-science-ui-service
   port:
     targetPort: 80
   tls:
